@@ -101,7 +101,6 @@ class SwfFileTest < Test::Unit::TestCase
       should "have the same output for the instance methods inspect and to_hash" do
         assert_equal @header.to_hash, @header.inspect
       end
-      
     end # SWF operations context
     
   end # SwfFile context
